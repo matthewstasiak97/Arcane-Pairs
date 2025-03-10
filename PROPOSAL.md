@@ -1,3 +1,10 @@
+### Arcane Pairs
+
+## What is Arcane Pairs
+
+Arcane Pairs is a card matching game utlizing fantasy/mythology figures or beasts. It will feature a pair matching objective featured on a 4x3 grid. The game will be time based with a countdown logic. It also will feature a three level- difficulty feature which will adjust based on the difficulty selected by the user.
+Upon completion of all pairs the user will be greeted with a winning message, or if unable to complete all pairs, they will be greeted with a losing message.
+
 ## User Stories-(Arcane Pairs)
 
 1. As a user, I want to be able to click start. Which in turn will start a timer letting me know how long i have to match every pair.
@@ -18,6 +25,18 @@
 8. AAU, If the user does complete every pair, I would like to display a notification on the screen. "Congrats You've Won". If not, "Sorry, Try Again"
 
 9. AAU, I would like their to be a reset button, which will allow the user to reset the board to attempt the game again.
+
+### Stretch Goals
+
+1. Create a victory animation when the user win's the game.
+
+2. Implement a sound to work in continuity with the victory animation.
+
+---
+
+![image](./assets/WireFrame.png)
+
+FrameWork: https://www.figma.com/design/t1Esh0bqVhBAYQWUCVpU6P/Arcane-pairs-(Project-1)?node-id=0-1&p=f&t=KdolRSHiU4lC5WwO-0
 
 ---
 
@@ -43,4 +62,19 @@ PsuedoCode
 
 10. Create reset button and functionality, to allow the board to be reset and to start a new game.
 
-FrameWork: https://www.figma.com/design/t1Esh0bqVhBAYQWUCVpU6P/Arcane-pairs-(Project-1)?node-id=0-1&p=f&t=KdolRSHiU4lC5WwO-0
+---
+
+| Day       |     | Task                                    | Blockers | Notes/ Thoughts |
+| --------- | --- | --------------------------------------- | -------- | --------------- |
+| Monday    |     | Create and present proposal             |          |                 |
+| Tuesday   |     | Create html, js, css files              |          |                 |
+| Wedensday |     | Create basic scaffolding/ Functionality |          |                 |
+| Thursday  |     | Add functionality                       |          |                 |
+| Friday    |     | Continue functionality                  |          |                 |
+| Saturday  |     | Finalize MVP                            |          |                 |
+| Sunday    |     | Work on stretch goals/icebox items      |          |                 |
+| Monday    |     | Presentation Day!                       |          |                 |
+
+---
+
+GitHub: https://github.com/matthewstasiak97/Arcane-Pairs

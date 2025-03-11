@@ -1,0 +1,73 @@
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+#Background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 11vh;
+  align-content: center;
+  align-items: center;
+  padding-left: 34px;
+}
+.cards {
+  display: flex;
+  height: 40px;
+  gap: 36px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 126px;
+  margin-top: 46px;
+  margin-left: 59px;
+}
+
+.card {
+  display: flex;
+  height: 103px;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border-radius: 7px;
+  border: 2px solid black;
+  margin-left: 32px;
+}
+
+.timer-container {
+  display: flex;
+  margin-left: 130px;
+  padding-top: 284px;
+  flex-direction: row;
+}
+
+.timer-image {
+  display: flex;
+  height: 165px;
+  width: 150px;
+}
+
+#countdown-timer {
+  height: 55px;
+  width: 14vw;
+  margin-top: 50px;
+  margin-left: 40px;
+  padding-right: 80px;
+}

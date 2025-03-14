@@ -11,12 +11,14 @@
   <body>
     <img src="./card-images/Background.webp" id="Background" />
     <div class="timer-container">
-      <timer class="timer-image">
+      <div class="timer-image">
         <img src="./card-images/Timer.png" alt="Timer" />
-        <input type="timer" id="countdown-timer" />
-      </timer>
+        <input type="text" id="countdown-timer" value="60" readonly/>
+      </div>
+      <button id="start-btn">Start</button>
     </div>
-    <div class="card-container">
+    <button>Reset</button>
+    <div class="game-board">
       <div class="cards">
         <div class="card">
           <img hidden class="back-card" src="./card-images/Back-card.png" />
@@ -68,5 +70,6 @@
         </div>
       </div>
     </div>
+    <button id="reset-btn">Reset</button>
   </body>
 </html>

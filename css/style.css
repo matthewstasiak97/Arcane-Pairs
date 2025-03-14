@@ -19,7 +19,7 @@ body {
   z-index: -1;
 }
 
-.card-container {
+.game-board {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -49,6 +49,19 @@ body {
   border-radius: 7px;
   border: 2px solid black;
   margin-left: 32px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card.shuffling {
+  transform: scale(0.5) rotate(15deg);
+  opacity: 0.5;
+}
+
+#reset-btn {
+  display: flex;
+  width: 90px;
+  height: 40px;
+  font-size: 26px;
 }
 
 .timer-container {
@@ -66,8 +79,12 @@ body {
 
 #countdown-timer {
   height: 55px;
-  width: 14vw;
+  width: 12vw;
   margin-top: 50px;
   margin-left: 40px;
-  padding-right: 80px;
+  padding-right: 99px;
+  font-size: 44px;
+  background: gray;
+  color: cornsilk;
+  border: solid;
 }

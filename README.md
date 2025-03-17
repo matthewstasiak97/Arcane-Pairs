@@ -23,4 +23,6 @@ Javascript
 
 4. Implement media queries to properly keep the the 4x3 grid on different resolutions.
 
+5. Would like to clean up my win/loss statements to be more appealing.
+
 https://matthewstasiak97.github.io/Arcane-Pairs/

@@ -52,16 +52,52 @@ body {
   transition: transform 0.5s ease-in-out;
 }
 
+.back-card {
+  display: block;
+}
+
+.front-card {
+  display: none;
+}
+
+.card.flipped .back-card {
+  display: none;
+}
+
+.card.flipped .front-card {
+  display: block;
+}
+
 .card.shuffling {
   transform: scale(0.5) rotate(15deg);
   opacity: 0.5;
 }
 
+#start-btn {
+  width: 70px;
+  height: 29px;
+  margin-top: 120px;
+  margin-left: 12px;
+}
+
 #reset-btn {
   display: flex;
-  width: 90px;
-  height: 40px;
-  font-size: 26px;
+  width: 70px;
+  height: 29px;
+  margin-top: 7px;
+  margin-left: 292px;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 18px;
+  font-size: 32px;
+  background: burlywood;
+  width: 100%;
 }
 
 .timer-container {
@@ -80,11 +116,23 @@ body {
 #countdown-timer {
   height: 55px;
   width: 12vw;
-  margin-top: 50px;
+  margin-top: 35px;
   margin-left: 40px;
   padding-right: 99px;
   font-size: 44px;
   background: gray;
   color: cornsilk;
   border: solid;
+}
+
+p {
+  display: flex;
+  font-size: 55px;
+  background: crimson;
+  width: 29vw;
+  margin-left: 249px;
+  justify-content: center;
+  position: fixed;
+  border-radius: 10px;
+  padding-left: 4px;
 }

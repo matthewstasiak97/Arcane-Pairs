@@ -25,4 +25,11 @@ Javascript
 
 5. Would like to clean up my win/loss statements to be more appealing.
 
+### External Rescources
+
+- ChatGPT
+- Stack Overflow
+- MDN docs
+- Figma
+
 https://matthewstasiak97.github.io/Arcane-Pairs/

@@ -21,4 +21,6 @@ Get my shuffle animation to work properly as well as add a flipping feature.
 
 Implement a feature to show the cards prior to starting the game. Then hiding them after the time starts.
 
+Implement media queries to properly keep the the 4x3 grid on different resolutions.
+
 https://matthewstasiak97.github.io/Arcane-Pairs/

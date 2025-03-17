@@ -17,6 +17,8 @@ Javascript
 
 Implement a difficulty aspect which will adjust the timer according to difficulty choices. "Easy", "Medium", "Hard"
 
-Get my shuffle animation to work properly as well as add a flipping feature
+Get my shuffle animation to work properly as well as add a flipping feature.
+
+Implement a feature to show the cards prior to starting the game. Then hiding them after the time starts.
 
 https://matthewstasiak97.github.io/Arcane-Pairs/

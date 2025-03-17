@@ -25,6 +25,8 @@ Javascript
 
 5. Would like to clean up my win/loss statements to be more appealing.
 
+6. Clean up css placement on elements. Specifically with flexbox.
+
 ### External Rescources
 
 - ChatGPT
